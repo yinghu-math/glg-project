@@ -8,7 +8,7 @@ We are [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](ht
 
 [GLG](https://glginsights.com/)'s business largely revolves around **matching clients**, requesting insights on a specific topic, **with an expert** on that topic from their large database so that they can meet by phone, video or in person.  Since they receive hundreds of these requests per day, we wanted to use machine learning to help automate and scale the process. 
 
-<img src="[./Presentation/results.png](https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png)" alt="glg problem" width="700">
+![GLG problem](https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png)
 
 We used NLP models to extract useful informations from the requests. You can find a recording of our presentation here: [Presentation](https://youtu.be/roA-0QMAdJQ) and [Slide Deck](https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf).
 
@@ -61,11 +61,11 @@ docker run -d --rm --name <container_name> -p 8000:8000 <image_name>
 
 <br>
 
-<img src="./Presentation/data_model.png" alt="data_model" width="700">
+<img src="./Presentation/data_model.png" alt="data_model" width="800">
 
 <br>
 
-<img src="./Presentation/results.png" alt="data_model" width="700">
+<img src="./Presentation/results.png" alt="data_model" width="800">
 
 <br>
 
