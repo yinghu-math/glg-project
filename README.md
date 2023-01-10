@@ -10,13 +10,13 @@ We are [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](ht
 
 ![GLG problem | 300](https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png)
 
-We used NLP models to extract useful informations from the requests. You can find a presentaton of our presentation here: [Presentation](https://youtu.be/roA-0QMAdJQ) and [Slide Deck](https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf).
+We used NLP models to extract useful informations from the requests. You can find a recording of our presentation here: [Presentation](https://youtu.be/roA-0QMAdJQ) and [Slide Deck](https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf).
 
 <br>
 
 ## Application Demo
 
-We built a web application, that takes a textual input and then outputs its key words, list of possible related topics, and other similar sentences from our database. 
+Our application takes a textual input and then outputs its key words, a list of possible related topics, and a list of similar sentences from our database. 
 
 The application was deployed on AWS, but we took it down after the program. 
 
@@ -24,38 +24,50 @@ You can watch an HD product demo here:
 
 [GLG Project Demo](https://youtu.be/H9BZQdG0qCA).
 
+<br>
+
 ![Demo](https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp)
 
 
+<br>
 
 ## Deployment Instructions
 
-This app can be (relatively, see note below) easily deployed using [Docker](https://www.docker.com/). The instructions to deploy in the cloud or locally are the same.
+This app can be easily deployed using [Docker](https://www.docker.com/). The instructions to deploy in the cloud or locally are the same.
 
-- Clone this repository, either on a local machine or in a cloud instance
+1. Clone this repository, either on a local machine or in a cloud instance
 
-- Navigate to the flask_app folder
+2. Navigate to the flask_app folder
 
-- Build the Docker image, using the command `docker build -t image_name .`
+3. Build the Docker image, using the command 
 
-- If you don't have Docker installed locally or in the cloud instance, you will have to [install](https://docs.docker.com/get-docker/) and [activate](https://docs.docker.com/config/daemon/systemd/) the Daemon in order to build a Docker image.
+```bash
+docker build -t <image_name> .
+```
+
+4. If you don't have Docker installed locally or in the cloud instance, you will have to [install](https://docs.docker.com/get-docker/) and [activate](https://docs.docker.com/config/daemon/systemd/) the Daemon in order to build a Docker image.
   
-- Run the Docker image using the command `docker run -d --rm --name container_name -p 8000:8000 image_name`
-- Navigate to either your local host, port 8000, or the public IP of the cloud instance, port 8000. E.g. 127.0.0.0:8000 
+5.  Run the Docker image using the command 
+
+```bash
+docker run -d --rm --name <container_name> -p 8000:8000 <image_name>
+```
+
+6.  Navigate to either your local host, port 8000, or the public IP of the cloud instance, port 8000. E.g. 127.0.0.0:8000 
 
 **NOTE:** This application depends on prebuilt machine learning models that were saved using [Pickle](https://docs.python.org/3/library/pickle.html) files. The idea of Pickle files is that they can be built once and ported to any other machine. However, in testing we found that the app may crash when you try to run it and this is most likely caused by the 'pkl files'. Unfortunately, to resolve the issue, you need to take the steps below to remediate the issue. This will slow down the Docker image build considerably, and might take up to 20 minutes, depending on your machine.
 
-- Open Dockerfile, and remove the `#` from the 3rd line from the bottom, so that it reads `RUN python model_maker.py`
-- Then you can pick up from the step `docker build -t image_name .` above.
+- Open `Dockerfile`, and remove the `#` from the 3rd line from the bottom, so that it reads `RUN python model_maker.py`
+- Then you can pick up from the step 3 above.
 
-
+<br>
 
 ## Data, models and results
 ![Models](https://user-images.githubusercontent.com/110877253/206085500-43a33b64-dd34-4b34-88c4-d19f8a44d259.png)
 
 ![Results](https://user-images.githubusercontent.com/110877253/206085155-9523f20d-d83a-4e48-add1-c32d772388c2.png)
 
-
+<br>
 
 ## Future work
 
@@ -69,6 +81,7 @@ This app can be (relatively, see note below) easily deployed using [Docker](http
   (GLG also has offices in Europe, Asia, and the Middle East)
 
 
+<br>
 
 ## License
 
