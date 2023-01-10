@@ -63,9 +63,15 @@ docker run -d --rm --name <container_name> -p 8000:8000 <image_name>
 <br>
 
 ## Data, models and results
-![Models](https://user-images.githubusercontent.com/110877253/206085500-43a33b64-dd34-4b34-88c4-d19f8a44d259.png)
 
-![Results](https://user-images.githubusercontent.com/110877253/206085155-9523f20d-d83a-4e48-add1-c32d772388c2.png)
+
+<br>
+
+![Models](./Presentation/data_model.png)
+
+<br>
+
+![Results](./Presentation/results.png)
 
 <br>
 
