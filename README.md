@@ -2,7 +2,7 @@
 
 We are [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](https://www.linkedin.com/in/codymccormack/) and [Cris Fortes](https://www.linkedin.com/in/crisfortes/). This repo is part of our capstone project of [FourthBrain](https://fourthbrain.ai/)'s [Machine Learning Engineer Program](https://fourthbrain.ai/courses/machine-learning-engineer/), from August to December of 2022.
 
-<br>
+
 
 ## Context
 
@@ -12,15 +12,11 @@ We are [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](ht
 
 We used NLP models to extract useful informations from the requests. You can find a recording of our presentation here: [Presentation](https://youtu.be/roA-0QMAdJQ) and [Slide Deck](https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf).
 
-<br>
+
 
 ## Application Demo
 
-Our application takes a textual input and then outputs its key words, a list of possible related topics, and a list of similar sentences from our database. 
-
-The application was deployed on AWS, but we took it down after the program. 
-
-You can watch an HD product demo here: 
+Our application takes a textual input and then outputs its key words, a list of possible related topics, and a list of similar sentences from our database. The application was deployed on AWS, but we took it down after the program. You can watch an HD product demo here: 
 
 [HD Project Demo link on Youtube](https://youtu.be/H9BZQdG0qCA).
 
@@ -59,7 +55,7 @@ docker run -d --rm --name <container_name> -p 8000:8000 <image_name>
 - Open `Dockerfile`, and remove the `#` from the 3rd line from the bottom, so that it reads `RUN python model_maker.py`
 - Then you can pick up from the step 3 above.
 
-<br>
+
 
 ## Data, models and results
 
@@ -86,7 +82,6 @@ docker run -d --rm --name <container_name> -p 8000:8000 <image_name>
   (GLG also has offices in Europe, Asia, and the Middle East)
 
 
-<br>
 
 ## License
 
