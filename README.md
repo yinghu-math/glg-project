@@ -8,7 +8,7 @@ We are [Ying Hu](https://www.linkedin.com/in/ying-hu-math/), [Cody McCormack](ht
 
 [GLG](https://glginsights.com/)'s business largely revolves around **matching clients**, requesting insights on a specific topic, **with an expert** on that topic from their large database so that they can meet by phone, video or in person.  Since they receive hundreds of these requests per day, we wanted to use machine learning to help automate and scale the process. 
 
-![GLG problem | 300](https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png)
+![GLG problem](https://user-images.githubusercontent.com/110877253/205419935-651c3d3a-972e-471f-9491-45c6426184f2.png)
 
 We used NLP models to extract useful informations from the requests. You can find a recording of our presentation here: [Presentation](https://youtu.be/roA-0QMAdJQ) and [Slide Deck](https://github.com/LaplaceCherub/glg-project/blob/main/Presentation/FourthBrain%20MLE%20Capstone%20Presentation%20-%20GLG%20-%2020221206.pdf).
 
@@ -26,8 +26,7 @@ You can watch an HD product demo here:
 
 <br>
 
-![Demo](https://i.giphy.com/media/GMSpp7FQSZdnXPHyfS/giphy.webp)
-
+![Demo](./Presentation/demo.gif)
 
 <br>
 
