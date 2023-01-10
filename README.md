@@ -61,11 +61,11 @@ docker run -d --rm --name <container_name> -p 8000:8000 <image_name>
 
 <br>
 
-<img src="./Presentation/data_model.png" alt="data_model" width="650">
+<img src="./Presentation/data_model.png" alt="data_model" width="700">
 
 <br>
 
-<img src="./Presentation/results.png" alt="data_model" width="650">
+<img src="./Presentation/results.png" alt="data_model" width="700">
 
 <br>
 
