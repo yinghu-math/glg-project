@@ -22,7 +22,7 @@ The application was deployed on AWS, but we took it down after the program.
 
 You can watch an HD product demo here: 
 
-[GLG Project Demo](https://youtu.be/H9BZQdG0qCA).
+[HD Project Demo link on Youtube](https://youtu.be/H9BZQdG0qCA).
 
 <br>
 
